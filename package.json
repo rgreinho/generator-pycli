@@ -2,6 +2,9 @@
   "name": "generator-pycli",
   "version": "0.1.0",
   "description": " The ultimate generator for Python CLI projects ",
+  "files": [
+    "generators"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rgreinho/generator-pycli/issues"
   },
-  "homepage": "https://github.com/rgreinho/generator-pycli#readme"
+  "homepage": "https://github.com/rgreinho/generator-pycli#readme",
+  "dependencies": {
+    "yeoman-generator": "^3.0.0"
+  }
 }
